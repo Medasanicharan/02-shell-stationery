@@ -1,15 +1,13 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # -------------------------------
 # Configuration
 # -------------------------------
-AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-074b66f88e51305b4"
+AMI_ID="ami-0220d79f3f480ecf5"
+SG_ID="sg-0b3887c240e195f49"
 ALL_INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID="Z079925038GKLPVTTRWKU"
-DOMAIN_NAME="daws2025.online"
+ZONE_ID="Z00141451QWZ40XXHZ60T"
+DOMAIN_NAME="thulasi.fun"
 
 # -------------------------------
 # Parse arguments
