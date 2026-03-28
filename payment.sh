@@ -50,7 +50,7 @@ fi
 mkdir -p /app &>>$LOG_FILE
 VALIDATE $? "creating app diectory"
 
-curl -o /tmp/payment.zip https://roboshop-artifacts.s3.amazonaws.com/payment-v3.zip &>>$LOG_FILE
+curl -o /tmp/payment.zip https://s3.amazonaws.com/devsecops.cloudnai/payment-v3.zip &>>$LOG_FILE
 VALIDATE $? "Downloading payment"
 
 rm -rf /app/*

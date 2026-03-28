@@ -54,7 +54,7 @@ VALIDATE $? "Starting nginx service"
 rm -rf /usr/share/nginx/html/* &>>$LOG_FILE
 VALIDATE $? "Cleaning old nginx files"
 
-curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip &>>$LOG_FILE
+curl -o /tmp/frontend.zip https://s3.amazonaws.com/devsecops.cloudnai/frontend-v3.zip &>>$LOG_FILE
 VALIDATE $? "Downloading frontend code"
 
 cd /usr/share/nginx/html &>>$LOG_FILE
