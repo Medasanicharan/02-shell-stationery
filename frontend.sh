@@ -54,7 +54,7 @@ VALIDATE $? "Starting nginx service"
 rm -rf /usr/share/nginx/html/* &>>$LOG_FILE
 VALIDATE $? "Cleaning old nginx files"
 
-curl -o /tmp/frontend.zip https://stationary-app1.s3.us-east-1.amazonaws.com/frontend.zip &>>$LOG_FILE
+curl -o /tmp/frontend.zip https://stationary-app1.s3.us-east-1.amazonaws.com/frontend-v3.zip &>>$LOG_FILE
 
 VALIDATE $? "Downloading frontend code"
 
