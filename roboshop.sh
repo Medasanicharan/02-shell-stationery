@@ -4,7 +4,7 @@
 # Configuration
 # -------------------------------
 AMI_ID="ami-0220d79f3f480ecf5"
-SG_ID="sg-0b3887c240e195f49"
+SG_ID="sg-07e35e138fbf78570"
 ALL_INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z00141451QWZ40XXHZ60T"
 DOMAIN_NAME="thulasi.fun"
