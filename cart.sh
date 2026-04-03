@@ -56,7 +56,7 @@ fi
 mkdir -p /app &>>$LOG_FILE
 VALIDATE $? "creating app diectory"
 
-curl -o /tmp/cart.zip https://s3.amazonaws.com/devsecops.cloudnai/cart-v3.zip &>>$LOG_FILE
+curl -o /tmp/cart.zip https://stationary-app.s3.us-east-1.amazonaws.com/cart-v1.zip &>>$LOG_FILE
 VALIDATE $? "Downloading cart"
 
 rm -rf /app/*

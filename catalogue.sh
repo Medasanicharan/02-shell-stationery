@@ -54,7 +54,7 @@ fi
 mkdir -p /app &>>$LOG_FILE
 VALIDATE $? "creating app diectory"
 
-curl -o /tmp/catalogue.zip https://s3.amazonaws.com/devsecops.cloudnai/catalogue-v3.zip &>>$LOG_FILE
+curl -o /tmp/catalogue.zip https://stationary-app.s3.us-east-1.amazonaws.com/catalogue-v1.zip &>>$LOG_FILE
 VALIDATE $? "Downloading catalogue"
 
 rm -rf /app/*
